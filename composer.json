@@ -1,0 +1,46 @@
+{
+    "name": "solunsky/dpd-interconnector",
+    "description": "Interconnector is a REST-based Web-Service to integrate information systems of DPD customers, which through POST requests allows using DPD services provided. Interconnector allows to use DPD services by transmitting shipment information, requesting package pickups, printing parcel labels, etc.",
+    "type": "library",
+    "keywords": [
+        "solunsky",
+        "interconnector",
+        "dpd",
+        "api",
+        "shipping",
+        "shipment",
+        "delivery",
+        "courier",
+        "parcel",
+        "label"
+    ],
+    "homepage": "https://github.com/solunsky/dpd",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitrijs Sapoznikovs",
+            "email": "solunski.d@gmail.com",
+            "homepage": "https://solunsky.io",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dpd@solunsky.io"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "6.*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solunsky\\Interconnector\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
